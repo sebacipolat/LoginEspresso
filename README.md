@@ -13,7 +13,7 @@ A simple login screen with espressop ui test scripts.
 
 **Home**
 
-![Home](https://github.com/sebacipolat/LoginEspresso/blob/master/screenshot.png)
+<img src='https://github.com/sebacipolat/LoginEspresso/blob/master/screenshot.png' width="250"/>
 
 Demostration purpose only, not a completed app.
 
