@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#46CDA3</color>
+    <color name="colorPrimaryDark">#3ba685</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+    <color name="slack_green">#73DDAD</color>
+
+    <color name="medium_aquamarine">#73DDAD</color>
+    <color name="shamrock">#46CDA3</color>
+    <color name="puerto_rico">#41B3A2</color>
+
+    <color name="medium_aquamarine_push">#5daf8a</color>
+    <color name="shamrock_push">#46b995</color>
+    <color name="puerto_rico_push">#369385</color>
+
+    <color name="white_ice">#DCE8E2</color>
+    <color name="ghost">#b2b2b3</color>
+
+    <color name="black">#000000</color>
+    <color name="grey">#79797b</color>
+
+</resources>

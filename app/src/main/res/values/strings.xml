@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">LoginEspresso</string>
+    <string name="homeLabel">Welcome to Slack</string>
+    <string name="home_subLabel">Team Communication for the 21st Century</string>
+    <string name="home_signin">SIGN IN</string>
+    <string name="home_input_user">USERNAME</string>
+    <string name="home_input_pssw">PASSWORD</string>
+    <string name="home_sign_up">SIGN UP FOR AN ACCOUNT</string>
+
+</resources>
