@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LoginEspresso</string>
+    <string name="homeLabel">Welcome to Slack</string>
+    <string name="home_subLabel">Team Communication for the 21st Century</string>
+    <string name="home_signin">SIGN IN</string>
+    <string name="home_input_user">EMAIL</string>
+    <string name="home_input_pssw">PASSWORD</string>
+    <string name="home_sign_up">SIGN UP FOR AN ACCOUNT</string>
+    <string name="validCredentials_title">WELCOME</string>
+    <string name="validCredentials_message">Nice to see you again my friend!</string>
+     <!-- Errores -->
+    <string name="invalid_email_error">Invalid Email!</string>
+    <string name="empty_email_error">Empty Email not allowed</string>
+    <string name="empty_pass_error">Empty Password not allowed</string>
+    <string name="invalidCredentials_title">Error</string>
+    <string name="invalidCredentials_message">Invalid Email or Password! </string>
+    <string name="ok_message">OK</string>
+
+</resources>
