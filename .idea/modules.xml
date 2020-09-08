@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/LoginEspresso.iml" filepath="$PROJECT_DIR$/LoginEspresso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/LoginEspresso-LoginEspresso.iml" filepath="$PROJECT_DIR$/.idea/modules/LoginEspresso-LoginEspresso.iml" group="LoginEspresso" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/LoginEspresso-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/LoginEspresso-app.iml" group="LoginEspresso/app" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

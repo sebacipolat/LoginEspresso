@@ -4,7 +4,7 @@ import android.support.test.espresso.action.ViewActions;
 import android.support.test.rule.ActivityTestRule;
 import android.support.test.runner.AndroidJUnit4;
 import com.cipolat.loginespresso.Data.CaseValues;
-import com.cipolat.loginespresso.Login.MainActivity;
+import com.cipolat.loginespresso.ui.login.MainActivity;
 import com.cipolat.loginespresso.Matcher.TextInputLayoutMatchers;
 import com.cipolat.loginespresso.Matcher.UiHelper;
 import com.cipolat.loginespresso.R;
@@ -26,7 +26,7 @@ public class LoginActivityTest {
     public void checkEmptyField() {
         clickLoginBtn();
         String emailStr = mActivityRule.getActivity().getString(R.string.empty_email_error);
-        onView(withId(R.id.inputUserInputLayout)).check(matches(TextInputLayoutMatchers.hasTextInputLayoutErrorText(emailStr)));
+        onView(withId(R.id.inputUserLayout)).check(matches(TextInputLayoutMatchers.hasTextInputLayoutErrorText(emailStr)));
 
         String passStr = mActivityRule.getActivity().getString(R.string.empty_pass_error);
         onView(withId(R.id.inputPasswInputLayout)).check(matches(TextInputLayoutMatchers.hasTextInputLayoutErrorText(passStr)));
@@ -36,7 +36,7 @@ public class LoginActivityTest {
     public void checkInvalidEmail() {
         onView(withId(R.id.inputUser)).perform(ViewActions.typeText(CaseValues.INVALID__EMAIL), pressImeActionButton());
         String emailStr = mActivityRule.getActivity().getString(R.string.invalid_email_error);
-        onView(withId(R.id.inputUserInputLayout)).check(matches(TextInputLayoutMatchers.hasTextInputLayoutErrorText(emailStr)));
+        onView(withId(R.id.inputUserLayout)).check(matches(TextInputLayoutMatchers.hasTextInputLayoutErrorText(emailStr)));
     }
 
     @Test
