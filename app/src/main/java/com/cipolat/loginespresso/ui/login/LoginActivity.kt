@@ -22,7 +22,6 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         loginViewModel = ViewModelProvider(this).get(LoginViewModel::class.java)
-
         inputUser.addTextChangedListener(InputTextWatcher(inputUserLayout))
         inputUser.onFocusChangeListener = OnFocusChangeListener { v, hasFocus ->
             if (!hasFocus) {
@@ -33,7 +32,7 @@ class LoginActivity : AppCompatActivity() {
         loginBtn.setOnClickListener { signIn() }
     }
 
-    private fun listeLoginStatus(){
+    private fun listeLoginStatus() {
         val loginObserver = Observer<Boolean> {
             if (it) {
                 showOkMessage()
@@ -51,11 +50,7 @@ class LoginActivity : AppCompatActivity() {
         if (validEmail && validPassword) {
             loginViewModel.makeLogin(inputUser!!.text.toString(), inputPassw.text.toString())
         }
-
-
-
     }
-
 
     private fun showErrorMessage() {
         val message = """
